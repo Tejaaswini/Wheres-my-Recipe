@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RecipesList it has valid snapshot 1`] = `
+<div>
+  <div
+    className="input-group mb-3 col-md-6"
+  >
+    <input
+      aria-describedby="basic-addon2"
+      aria-label="Recipe"
+      className="form-control"
+      onChange={[Function]}
+      placeholder="Search Recipe"
+      type="text"
+    />
+    <div
+      className="input-group-append"
+    >
+      <span
+        className="input-group-text"
+        id="basic-addon2"
+      >
+        <i
+          className="fa fa-search"
+        />
+         Search
+      </span>
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div>
+      Loading...
+    </div>
+  </div>
+  <br />
+  <nav
+    aria-label="..."
+  >
+    <div>
+      Loading pagination...
+    </div>
+  </nav>
+  <div
+    id="notification-wrapper"
+  />
+</div>
+`;

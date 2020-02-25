@@ -1,0 +1,49 @@
+body {
+  background-image: url('../img/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 1200px;
+}
+
+.imageclass {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover !important;
+}
+
+.carouselimg {
+  height: 350px !important;
+}
+
+.featurette-divider {
+    margin: 5rem 0; 
+  }
+  
+ 
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+  
+  
+  
+  @media (min-width: 20em) {
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }

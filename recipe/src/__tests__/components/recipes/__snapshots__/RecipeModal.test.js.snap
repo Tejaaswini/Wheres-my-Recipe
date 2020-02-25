@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Recipes Creation it has valid snapshot 1`] = `
+<div>
+  <div
+    aria-hidden="true"
+    aria-labelledby="recipeModalTitle"
+    className="modal fade"
+    id="recipeModal"
+    role="dialog"
+    tabindex="-1"
+  >
+    <div
+      className="modal-dialog modal-dialog-centered"
+      role="document"
+    >
+      <div
+        className="modal-content"
+      >
+        <div
+          className="modal-header"
+        >
+          <h5
+            className="modal-title"
+            id="recipeModalLongTitle"
+          >
+            Create New Recipe
+          </h5>
+          <button
+            aria-label="Close"
+            className="close"
+            data-dismiss="modal"
+            id="close"
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+        </div>
+        <div
+          className="modal-body"
+        >
+          <div>
+            <form
+              className=""
+              id="recipeForm"
+              name="recipeForm"
+              onSubmit={[Function]}
+            >
+              <div
+                className="row form-group"
+              >
+                <label
+                  className="col-md-3 col-form-label"
+                  htmlFor="recipe_name"
+                >
+                  Recipe name
+                </label>
+                <div
+                  className="col col-md-9"
+                >
+                  <small
+                    className="form-text text-muted"
+                  />
+                  <input
+                    className="form-control"
+                    id="recipe_name"
+                    name="name"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onDragStart={[Function]}
+                    onDrop={[Function]}
+                    onFocus={[Function]}
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    className="invalid-feedback"
+                  >
+                    
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row form-group"
+              >
+                <label
+                  className="col-md-3 col-form-label"
+                  htmlFor="description"
+                >
+                  Description
+                </label>
+                <div
+                  className="col col-md-9"
+                >
+                  <small
+                    className="form-text text-muted"
+                  />
+                  <textarea
+                    className="form-control"
+                    id="description"
+                    name="description"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onDragStart={[Function]}
+                    onDrop={[Function]}
+                    onFocus={[Function]}
+                    value=""
+                  />
+                  <div
+                    className="invalid-feedback"
+                  >
+                    
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row form-group"
+              >
+                <label
+                  className="col-md-3 col-form-label"
+                  htmlFor="ingredients"
+                >
+                  Ingredients
+                </label>
+                <div
+                  className="col col-md-9"
+                >
+                  <small
+                    className="form-text text-muted"
+                  >
+                    Type with space and each on new line.
+                  </small>
+                  <textarea
+                    className="form-control"
+                    id="iingredients"
+                    name="ingredients"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onDragStart={[Function]}
+                    onDrop={[Function]}
+                    onFocus={[Function]}
+                    value=""
+                  />
+                  <div
+                    className="invalid-feedback"
+                  >
+                    
+                  </div>
+                </div>
+              </div>
+              <div
+                className="row form-group"
+              >
+                <label
+                  className="col-md-3 col-form-label"
+                  htmlFor="directions"
+                >
+                  Directions
+                </label>
+                <div
+                  className="col col-md-9"
+                >
+                  <small
+                    className="form-text text-muted"
+                  >
+                    Type with space and each on new line.
+                  </small>
+                  <textarea
+                    className="form-control"
+                    id="directions"
+                    name="directions"
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onDragStart={[Function]}
+                    onDrop={[Function]}
+                    onFocus={[Function]}
+                    value=""
+                  />
+                  <div
+                    className="invalid-feedback"
+                  >
+                    
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div
+          className="modal-footer"
+        >
+          <button
+            className="btn btn-secondary"
+            data-dismiss="modal"
+            type="button"
+          >
+            Cancel
+          </button>
+          <button
+            className="btn btn-success"
+            form="recipeForm"
+            type="submit"
+          >
+            Save
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    id="notification-wrapper"
+  />
+</div>
+`;

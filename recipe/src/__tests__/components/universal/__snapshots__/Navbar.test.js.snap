@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar after authentication it has valid snapshot 1`] = `
+<header>
+  <nav
+    className="navbar navbar-expand-md navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+    >
+      <li
+        aria-hidden="true"
+        className="fa fa-home fa-fw"
+      />
+       YUMMY RECIPES APP
+    </a>
+    <button
+      className="navbar-toggler"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="navbar-toggler-icon"
+      />
+    </button>
+    <div
+      className="collapse navbar-collapse"
+      style={Object {}}
+    >
+      <ul
+        className="ml-auto navbar-nav"
+      >
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="/dashboard"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-tachometer fa-fw"
+            />
+             DASHBOARD
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-user fa-fw"
+            />
+             
+          </a>
+        </li>
+        <li
+          className="nav-item"
+        >
+          <a
+            className="nav-link"
+            href="#"
+            onClick={[Function]}
+          >
+            <i
+              aria-hidden="true"
+              className="fa fa-sign-out fa-fw"
+            />
+             SIGNOUT
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+`;

@@ -1,0 +1,48 @@
+{
+  "name": "recipes",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.17.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "file-loader": "^1.1.6",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-form": "^2.16.1",
+    "react-notification-system": "^0.2.16",
+    "react-notification-system-redux": "^1.2.0",
+    "react-notify-toast": "^0.4.0",
+    "react-promise": "^2.0.1",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.17",
+    "react-test-renderer": "^16.2.0",
+    "reactstrap": "^5.0.0-alpha.4",
+    "redux": "^3.7.2",
+    "redux-form": "^7.2.1",
+    "redux-logger": "^3.0.6",
+    "redux-mock-store": "^1.5.1",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.2.0",
+    "silent": "^0.1.2",
+    "url-loader": "^0.6.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "coverage": "react-scripts test --env=jsdom --coverage --collectCoverageFrom=src/**/*js --collectCoverageFrom=!src/index.js",
+    "coveralls": "cat ./coverage/lcov.info | node node_modules/.bin/coveralls"
+  },
+  "devDependencies": {
+    "jest-localstorage-mock": "^2.2.0",
+    "moxios": "^0.4.0",
+    "sinon": "^4.3.0"
+  }
+}

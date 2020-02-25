@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signin it has valid snapshot 1`] = `
+<div>
+  <div
+    className="carousel slide"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <ol
+      className="carousel-indicators"
+    >
+      <li
+        className="active"
+        onClick={[Function]}
+      />
+      <li
+        className=""
+        onClick={[Function]}
+      />
+      <li
+        className=""
+        onClick={[Function]}
+      />
+    </ol>
+    <div
+      className="carousel-inner"
+      role="listbox"
+    >
+      <div
+        className="carousel-item active"
+      >
+        <img
+          alt={undefined}
+          className="d-block img-fluid"
+          src={undefined}
+        />
+        <div
+          className="carouselimg"
+        >
+          <img
+            alt="Slide 1"
+            src="recipe-food-lab.jpg"
+          />
+        </div>
+        <div
+          className="carousel-caption d-none d-md-block"
+        >
+          <h3>
+            Slide 1
+          </h3>
+          <p>
+            Slide 1
+          </p>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt={undefined}
+          className="d-block img-fluid"
+          src={undefined}
+        />
+        <div
+          className="carouselimg"
+        >
+          <img
+            alt="Slide 2"
+            src="recipe-kenji-14.jpg"
+          />
+        </div>
+        <div
+          className="carousel-caption d-none d-md-block"
+        >
+          <h3>
+            Slide 2
+          </h3>
+          <p>
+            Slide 2
+          </p>
+        </div>
+      </div>
+      <div
+        className="carousel-item"
+      >
+        <img
+          alt={undefined}
+          className="d-block img-fluid"
+          src={undefined}
+        />
+        <div
+          className="carouselimg"
+        >
+          <img
+            alt="Slide 3"
+            src="recipes-roundup-22.jpg"
+          />
+        </div>
+        <div
+          className="carousel-caption d-none d-md-block"
+        >
+          <h3>
+            Slide 3
+          </h3>
+          <p>
+            Slide 3
+          </p>
+        </div>
+      </div>
+    </div>
+    <a
+      className="carousel-control-prev"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-prev-icon"
+      />
+      <span
+        className="sr-only"
+      >
+        Previous
+      </span>
+    </a>
+    <a
+      className="carousel-control-next"
+      onClick={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <span
+        aria-hidden="true"
+        className="carousel-control-next-icon"
+      />
+      <span
+        className="sr-only"
+      >
+        Next
+      </span>
+    </a>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row justify-content-md-center"
+    >
+      <div
+        className="col-md-6"
+      >
+        <h3>
+          SIGN IN
+        </h3>
+        <hr />
+        <form
+          className=""
+          onSubmit={[Function]}
+        >
+          <div
+            className="form-group"
+          >
+            <label
+              className=" form-control-label"
+              htmlFor="email"
+            >
+              Email
+            </label>
+            <input
+              className="form-control"
+              id="email"
+              name="email"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              onFocus={[Function]}
+              type="email"
+              value=""
+            />
+            <div
+              className="invalid-feedback"
+            >
+              
+            </div>
+          </div>
+          <div
+            className="form-group"
+          >
+            <label
+              className=" form-control-label"
+              htmlFor="password"
+            >
+              Password
+            </label>
+            <input
+              className="form-control"
+              id="password"
+              name="password"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onDragStart={[Function]}
+              onDrop={[Function]}
+              onFocus={[Function]}
+              type="password"
+              value=""
+            />
+            <div
+              className="invalid-feedback"
+            >
+              
+            </div>
+          </div>
+          <button
+            className="btn btn-primary"
+            onClick={[Function]}
+            type="submit"
+          >
+            Sign in
+          </button>
+        </form>
+        <a
+          href="/signup"
+          onClick={[Function]}
+        >
+          DON'T HAVE AN ACCOUNT? SIGN UP 
+          <i
+            className="fa fa-arrow-right"
+          />
+        </a>
+      </div>
+    </div>
+    <hr
+      className="featurette-divider"
+    />
+  </div>
+  <div
+    id="notification-wrapper"
+  />
+</div>
+`;
