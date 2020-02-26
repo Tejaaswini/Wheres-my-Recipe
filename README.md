@@ -8,4 +8,4 @@ A react.js based Recipe Finder app. Search , upload , edit and delete the recipe
 	3. npm start
 	open localhost:3000 on the browser to view the app
 
-###Search by name of ingredient is currently not working.
+Search by name of ingredient is currently not working.
