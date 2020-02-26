@@ -15,3 +15,7 @@ A react.js based Recipe Finder app. Search , upload , edit and delete the recipe
 	4. redux: ^3.7.2
 
 Search by name of ingredient is currently not working.
+
+Register if new or login if the account already exists to add recipes as per category, search them by name of recipe and edit or delete them when needed.
+
+The authentication is done via JWT and locally stored.
