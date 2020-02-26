@@ -8,7 +8,7 @@ A react.js based Recipe Finder app. Search , upload , edit and delete the recipe
 	3. $ npm start
 	open localhost:3000 on the browser to view the app
 	
-	Dependencies:
+	What's needed:
 	1. node: 10.19.0
 	2. npm: 6.13.0
 	3. react: ^16.2.0
