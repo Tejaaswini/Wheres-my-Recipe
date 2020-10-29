@@ -1,5 +1,3 @@
-# codemonk-assignment
-
 A react.js based Recipe Finder app. Search , upload , edit and delete the recipes when needed.
 
 ## Steps to run the app
@@ -17,5 +15,3 @@ A react.js based Recipe Finder app. Search , upload , edit and delete the recipe
 Search by name of ingredient is currently not working.
 
 Register if new or login if the account already exists to add recipes as per category, search them by name of recipe and edit or delete them when needed.
-
-The authentication is done via JWT and locally stored.
